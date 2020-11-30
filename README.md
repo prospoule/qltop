@@ -10,3 +10,6 @@ Les différents fichiers d’entrée et de sortie qui composent un calcul LTOP s
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Ce plugin a été réalisé dans le cadre de mon travail de Bachelor à la [HEIG-VD](https://www.heig-vd.ch) dans la filière géomatique.
+
+<br>
+Plus d'infos dans le Wiki!
