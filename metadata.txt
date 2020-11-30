@@ -1,0 +1,52 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+[general]
+name=QLTOP
+qgisMinimumVersion=3.10
+description=Outil interactif de préanalyse pour le logiciel LTOP
+version=0.1
+author=Nicolas Szakacs
+email=nicolas.szakacs@heig-vd.ch
+
+about=La création d'un canevas de mesures pour un futur réseau géodésique est complexe à modéliser.
+  Les différents fichiers d’entrée et de sortie qui composent un calcul LTOP sont gérés dans le plugin afin d'aider à analyser les résultats et à documenter le canevas.
+  
+  -> Dans un premier temps, ce prototype est conçu uniquement pour un calcul de préanalyse terrestre.
+
+tracker=https://github.com/prospoule/QLTOP/issues
+repository=https://github.com/prospoule/QLTOP
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=Ltop, préanalyse, terrestre
+
+# homepage=https://github.com/prospoule/QLTOP
+category=Plugins
+icon=icons/icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
