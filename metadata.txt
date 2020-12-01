@@ -10,7 +10,7 @@ qgisMinimumVersion=3.10
 description=Outil interactif de préanalyse pour le logiciel LTOP
 version=0.1
 author=Nicolas Szakacs
-email=nicolas.szakacs@heig-vd.ch
+email=szakacs@hotmail.fr
 
 about=La création d'un canevas de mesures pour un futur réseau géodésique est complexe à modéliser.
   Les différents fichiers d’entrée et de sortie qui composent un calcul LTOP sont gérés dans le plugin afin d'aider à analyser les résultats et à documenter le canevas.
