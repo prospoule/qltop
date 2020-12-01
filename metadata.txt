@@ -30,7 +30,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=Ltop, préanalyse, terrestre
 
-homepage=https://github.com/prospoule/QLTOP
+homepage=https://github.com/prospoule/qltop/wiki
 category=Plugins
 icon=icons/icon.png
 # experimental flag
