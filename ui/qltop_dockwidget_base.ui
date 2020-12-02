@@ -142,7 +142,7 @@
             <cursorShape>ArrowCursor</cursorShape>
            </property>
            <property name="styleSheet">
-            <string notr="true">image: url(:/icons/icon.png);</string>
+            <string notr="true">image: url(:/icon.png);</string>
            </property>
            <property name="text">
             <string/>
@@ -265,7 +265,7 @@
               <property name="title">
                <string>Sélection du dossier de travail</string>
               </property>
-              <property name="saveCollapsedState" stdset="0">
+              <property name="saveCollapsedState">
                <bool>false</bool>
               </property>
               <layout class="QGridLayout" name="gridLayout_14">
@@ -592,10 +592,10 @@
               <property name="flat">
                <bool>true</bool>
               </property>
-              <property name="collapsed" stdset="0">
+              <property name="collapsed">
                <bool>true</bool>
               </property>
-              <property name="saveCollapsedState" stdset="0">
+              <property name="saveCollapsedState">
                <bool>false</bool>
               </property>
               <layout class="QGridLayout" name="gridLayout_9" rowstretch="0">
@@ -688,15 +688,15 @@
               <property name="flat">
                <bool>true</bool>
               </property>
-              <property name="collapsed" stdset="0">
+              <property name="collapsed">
                <bool>true</bool>
               </property>
-              <property name="saveCollapsedState" stdset="0">
+              <property name="saveCollapsedState">
                <bool>false</bool>
               </property>
               <layout class="QGridLayout" name="gridLayout_12">
                <item row="0" column="0">
-                <widget class="QgsProjectionSelectionWidget" name="selSysProj" native="true">
+                <widget class="QgsProjectionSelectionWidget" name="selSysProj">
                  <property name="cursor">
                   <cursorShape>PointingHandCursor</cursorShape>
                  </property>
@@ -748,7 +748,7 @@
               <property name="title">
                <string>Sélection du fichier de coordonnées</string>
               </property>
-              <property name="saveCollapsedState" stdset="0">
+              <property name="saveCollapsedState">
                <bool>false</bool>
               </property>
               <layout class="QGridLayout" name="gridLayout_28">
@@ -1159,7 +1159,7 @@
                    <property name="title">
                     <string>Points présents dans la base de données</string>
                    </property>
-                   <property name="saveCollapsedState" stdset="0">
+                   <property name="saveCollapsedState">
                     <bool>false</bool>
                    </property>
                    <layout class="QGridLayout" name="gridLayout_10">
@@ -1284,7 +1284,7 @@
                     <bool>false</bool>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}</string>
+                    <string notr="true">QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}QgsCollapsibleGroupBoxBasic::title, QgsCollapsibleGroupBox::title {  subcontrol-origin: margin;  subcontrol-position: top left;  margin-left: 20px;  margin-right: 5px;  left: 0px;  top: 2px;}</string>
                    </property>
                    <property name="title">
                     <string>Stations présentes dans la base de données</string>
@@ -1292,10 +1292,10 @@
                    <property name="flat">
                     <bool>false</bool>
                    </property>
-                   <property name="collapsed" stdset="0">
+                   <property name="collapsed">
                     <bool>false</bool>
                    </property>
-                   <property name="saveCollapsedState" stdset="0">
+                   <property name="saveCollapsedState">
                     <bool>false</bool>
                    </property>
                    <layout class="QGridLayout" name="gridLayout_23">
@@ -1362,10 +1362,10 @@
                    <property name="flat">
                     <bool>false</bool>
                    </property>
-                   <property name="collapsed" stdset="0">
+                   <property name="collapsed">
                     <bool>false</bool>
                    </property>
-                   <property name="saveCollapsedState" stdset="0">
+                   <property name="saveCollapsedState">
                     <bool>false</bool>
                    </property>
                    <layout class="QGridLayout" name="gridLayout_22">
@@ -1432,7 +1432,7 @@
               <property name="title">
                <string>Sélection du fichier de mesures</string>
               </property>
-              <property name="saveCollapsedState" stdset="0">
+              <property name="saveCollapsedState">
                <bool>false</bool>
               </property>
               <layout class="QGridLayout" name="gridLayout_24">
@@ -1824,7 +1824,7 @@
               <property name="title">
                <string>Sélection du fichier de configuration</string>
               </property>
-              <property name="saveCollapsedState" stdset="0">
+              <property name="saveCollapsedState">
                <bool>false</bool>
               </property>
               <layout class="QGridLayout" name="gridLayout_27">
@@ -10532,7 +10532,7 @@ Facteur 1000 : affichage en [m]</string>
               <property name="title">
                <string>Sélection du fichier résultat PRNx</string>
               </property>
-              <property name="saveCollapsedState" stdset="0">
+              <property name="saveCollapsedState">
                <bool>false</bool>
               </property>
               <layout class="QGridLayout" name="gridLayout_30">
@@ -10811,8 +10811,8 @@ Facteur 1000 : affichage en [m]</string>
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>659</width>
-                     <height>585</height>
+                     <width>218</width>
+                     <height>115</height>
                     </rect>
                    </property>
                    <layout class="QGridLayout" name="gridLayout_40">
@@ -11099,8 +11099,8 @@ Facteur 1000 : affichage en [m]</string>
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>996</width>
-                     <height>1245</height>
+                     <width>538</width>
+                     <height>138</height>
                     </rect>
                    </property>
                    <layout class="QGridLayout" name="gridLayout_42">
@@ -11323,8 +11323,8 @@ ERREURS MOYENNES A PRIORI DES DISTANCES REDUITES, DES DIRECTIONS ET DES GISEMENT
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>996</width>
-                     <height>1245</height>
+                     <width>392</width>
+                     <height>148</height>
                     </rect>
                    </property>
                    <layout class="QGridLayout" name="gridLayout_45">
@@ -11561,8 +11561,8 @@ SI NON DONNEE, L'E.M. A PRIORI DE LA DIFF. NIVEAU CALCULEE PAR :</string>
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>996</width>
-                     <height>1245</height>
+                     <width>550</width>
+                     <height>62</height>
                     </rect>
                    </property>
                    <layout class="QGridLayout" name="gridLayout_38">
@@ -11698,8 +11698,8 @@ SI NON DONNEE, L'E.M. A PRIORI DE LA DIFF. NIVEAU CALCULEE PAR :</string>
                     <rect>
                      <x>0</x>
                      <y>0</y>
-                     <width>996</width>
-                     <height>1245</height>
+                     <width>98</width>
+                     <height>69</height>
                     </rect>
                    </property>
                    <property name="autoFillBackground">
@@ -11740,8 +11740,8 @@ SI NON DONNEE, L'E.M. A PRIORI DE LA DIFF. NIVEAU CALCULEE PAR :</string>
                         <rect>
                          <x>0</x>
                          <y>0</y>
-                         <width>996</width>
-                         <height>1245</height>
+                         <width>361</width>
+                         <height>102</height>
                         </rect>
                        </property>
                        <layout class="QGridLayout" name="gridLayout_36">
@@ -13071,7 +13071,7 @@ SANS ARRONDI (Q^)</string>
               <property name="title">
                <string>Calcul de visibilité</string>
               </property>
-              <property name="saveCollapsedState" stdset="0">
+              <property name="saveCollapsedState">
                <bool>false</bool>
               </property>
               <layout class="QGridLayout" name="gridLayout_18">
@@ -13350,8 +13350,8 @@ Affiche le résulat dans Qgis.</string>
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>1064</width>
-         <height>1427</height>
+         <width>727</width>
+         <height>767</height>
         </rect>
        </property>
        <attribute name="label">

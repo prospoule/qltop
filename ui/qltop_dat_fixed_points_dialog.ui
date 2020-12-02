@@ -18,8 +18,8 @@
    <string>Définition des points fixes/variables</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>:/icons/icon.png</normaloff>:/icons/icon.png</iconset>
+   <iconset resource="../resources.qrc">
+    <normaloff>:/icon.png</normaloff>:/icon.png</iconset>
   </property>
   <property name="windowOpacity">
    <double>1.000000000000000</double>
@@ -319,7 +319,6 @@
   <tabstop>txtDatSearch</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
- <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>

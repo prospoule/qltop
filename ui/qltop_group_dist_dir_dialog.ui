@@ -19,7 +19,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normalon>:/icons/icon.png</normalon>
+    <normalon>:/icon.png</normalon>
    </iconset>
   </property>
   <property name="modal">
@@ -192,7 +192,6 @@ QTableCornerButton::section {background-color: rgb(249, 249, 249);}
   <tabstop>tblDatGrpDir</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
- <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>

@@ -19,7 +19,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="../resources.qrc">
-    <normaloff>:/icons/icon.png</normaloff>:/icons/icon.png</iconset>
+    <normaloff>:/icon.png</normaloff>:/icon.png</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="1" column="0">
@@ -55,7 +55,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="../resources.qrc">:/icons/icons8-warning-96.png</pixmap>
+        <pixmap>:/icons/icons8-warning-96.png</pixmap>
        </property>
       </widget>
      </item>

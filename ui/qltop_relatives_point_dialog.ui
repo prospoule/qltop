@@ -36,8 +36,8 @@
    <string>Définition des points relatifs</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>:/icons/icon.png</normaloff>:/icons/icon.png</iconset>
+   <iconset resource="../resources.qrc">
+    <normaloff>:/icon.png</normaloff>:/icon.png</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="1" column="0">
@@ -242,7 +242,6 @@
   <tabstop>tblDatFiab</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
- <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>
