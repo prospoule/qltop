@@ -1,6 +1,6 @@
 <RCC>
     <qresource>
-        <file>icons/icon.png</file>
+        <file>icon.png</file>
         <file>icons/icons8-help-24.png</file>
         <file>icons/icons8-clear-symbol-24.png</file>
         <file>icons/icons8-save-24.png</file>
