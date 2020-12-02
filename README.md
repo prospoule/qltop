@@ -1,5 +1,5 @@
 # QLTOP
-## Outil interactif de préanalyse pour le logiciel LTOP
+## Outil interactif de préanalyse pour le logiciel LTOP (-> plugin QGIS)
 
 La création d'un canevas de mesures pour un futur réseau géodésique est complexe à modéliser.
 Les différents fichiers d’entrée et de sortie qui composent un calcul LTOP sont gérés dans le plugin afin d'aider à analyser les résultats et à documenter le canevas.
