@@ -78,6 +78,10 @@ class createDB:
                     ["20", "MN95", "2600000.0000", "1200000.0000", "0.0000", "", "", "", ""]
                 ]
     
+    dat_grp_azimuth_init = [
+                                ["06", "AZI", "1", "1", "3.0"]
+                            ]
+
     dat_grp_distance_init = [
                                 ["06", "DIST.GR.", "1", "", "", "2.0", "MESSBAND", "300.0", "0.0"],
                                 ["06", "DIST.GR.", "2", "", "", "1.0", "2M-BASIS", "10.0", "2500.0"],
@@ -87,6 +91,7 @@ class createDB:
     dat_grp_direction_init = [
                                 ["06", "RI", "1", "3.0"]
                             ]
+
 
     def __init__(self, db_name):
         self.db_name = gt_check_exist_file(db_name + self.extension)
@@ -114,6 +119,11 @@ class createDB:
                         INSERT INTO dat_conf (id_conf, ka, param1, param2, param3, param4, param5, param6, param7, param8)
                         VALUES (Null, ?, ?, ?, ?, ?, ?, ?, ?, ?);
                         """
+                    sql_insert_dat_grp_azimuth_init = \
+                        """
+                        INSERT INTO grp_azimuth (id_grpazi, ka, ka_name, no_grp, no_inc_ori, err_moy)
+                        VALUES (Null, ?, ?, ?, ?, ?);
+                        """
                     sql_insert_dat_grp_distance_init = \
                         """
                         INSERT INTO grp_distance (id_grpdis, ka, ka_name, no_grp, cst_add, corr_ech, coefA, descr, coefB, coefC)
@@ -126,6 +136,7 @@ class createDB:
                         """
 
                     cursor.executemany(sql_insert_dat_init, self.dat_init)
+                    cursor.executemany(sql_insert_dat_grp_azimuth_init, self.dat_grp_azimuth_init)
                     cursor.executemany(sql_insert_dat_grp_distance_init, self.dat_grp_distance_init)
                     cursor.executemany(sql_insert_dat_grp_direction_init, self.dat_grp_direction_init)
 
@@ -529,6 +540,27 @@ class manageDatDB:
             cursor.close()
         except sqlite3.Error as error:
             print("Database -> Failed to set relatives points in the 'rel_ellips', 'rel_fiab' tables", error)
+        finally:
+            if (connection):
+                connection.close()
+
+    @staticmethod
+    def set_grp_azimuth(db_name, grp_azimuth):
+        """ Set the azimuth group data in the qltop 'grp_azimuth' table """
+        try:
+            connection = sqlite3.connect(db_name, timeout=11)
+            sql_query_init = "DELETE FROM grp_azimuth;"  ## init, erase all
+            sql_query_set = """
+                             INSERT INTO grp_azimuth (id_grpazi, no_grp, no_inc_ori, err_moy)
+                             VALUES (Null, ?, ?, ?);
+                             """
+            cursor = connection.cursor()
+            cursor.execute(sql_query_init)
+            cursor.executemany(sql_query_set, grp_azimuth)
+            connection.commit()
+            cursor.close()
+        except sqlite3.Error as error:
+            print("Database -> Failed to set the azimuth group data in the 'grp_azimuth' table", error)
         finally:
             if (connection):
                 connection.close()

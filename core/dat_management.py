@@ -31,7 +31,7 @@ from qgis.core import QgsProject
 
 from qltop.pui.qltop_dat_fixed_points_dialog import *
 from qltop.pui.qltop_relatives_point_dialog import *
-from qltop.pui.qltop_group_dist_dir_dialog import *
+from qltop.pui.qltop_group_dist_dir_azi_dialog import *
 
 # Import the core program
 from qltop.core.database import *
@@ -90,8 +90,8 @@ def dat_show_reliability_dialog(db_name):
     dlg.exec_()
 
 
-def dat_show_grp_dist_dir_dialog(db_name):
-    """ Display the distance/direction group dialog box in the .DAT panel """
+def dat_show_grp_dist_dir_azi_dialog(db_name):
+    """ Display the distance/direction/azimuth group dialog box in the .DAT panel """
     dlg = datGrpDialog(db_name)
     dlg.exec_()
 
@@ -112,6 +112,7 @@ class loadDatConf:
         self.file_content = self.read_dat_file(self.dat_path)            ## Extract all file content
         self.var_point = self.extract_variable_point(self.file_content)  ## Extract variable point only
         self.pnt_reliab = self.extract_relative(self.file_content)       ## Extraction of relative reliability and the relative ellipse
+        self.grp_azi = self.extract_grp_azimuth(self.file_content)       ## Extraction the azimuth groupe data
         self.grp_dist = self.extract_grp_distance(self.file_content)     ## Extraction the distance groupe data
         self.grp_dir = self.extract_grp_direction(self.file_content)     ## Extraction the direction groupe data
         self.ka_no_descr = self.extract_ka_no_descr(self.file_content)
@@ -122,6 +123,8 @@ class loadDatConf:
             manageDatDB.set_var_point(self.db_name, self.var_point)    ## Update db and assign variable/fixe to points
         if self.pnt_reliab:
             manageDatDB.set_rel_point(self.db_name, self.pnt_reliab)   ## Update db with relatives point
+        if self.grp_azi:
+            manageDatDB.set_grp_azimuth(self.db_name, self.grp_azi)    ## Update db with the azimuth group data
         if self.grp_dist:
             manageDatDB.set_grp_distance(self.db_name, self.grp_dist)  ## Update db with the distance group data
         if self.grp_dir:
@@ -138,6 +141,19 @@ class loadDatConf:
             return list(lines)
         except:
             print("Dat management -> Failed to read the Ltop.dat file")
+
+    @classmethod
+    def extract_grp_azimuth(cls, file_content):
+        """
+        Extract the azimuth group data
+        - KA 06 = AZI
+        """
+        grp_azi = []  ## return list
+        for row in file_content:
+            if row[:5] == "06AZI":
+                grp_azi.append([row[16], row[28],
+                                 cls.extract_ka_pos(row, 34, 41, 41, 45)])
+        return grp_azi
 
     @classmethod
     def extract_grp_distance(cls, file_content):
@@ -358,6 +374,7 @@ class exportDatFile:
     def extract_all_data(self, db_name):
         # Extract data from the database
         dat_conf = generalToolsDB.select_tbl_items(db_name, "dat_conf")
+        grp_azimuth = generalToolsDB.select_tbl_items(db_name, "grp_azimuth")
         grp_distance = generalToolsDB.select_tbl_items(db_name, "grp_distance")
         grp_direction = generalToolsDB.select_tbl_items(db_name, "grp_direction")
         point_pk = generalToolsDB.select_tbl_items(db_name, "point_pk")
@@ -365,6 +382,7 @@ class exportDatFile:
         rel_fiab = generalToolsDB.select_tbl_items(db_name, "rel_fiab")
         # Create the Ltop.dat rows
         row_dat_conf = self.row_dat_conf(dat_conf)           ## all other single KA
+        row_grp_azi = self.row_grp_azimuth(grp_azimuth)      ## KA 06 AZI.
         row_grp_dist = self.row_grp_distance(grp_distance)   ## KA 06 DIST.GR.
         row_grp_dir = self.row_grp_direction(grp_direction)  ## KA 06 RI
         row_var_point = self.row_variable_point(point_pk)    ## KA 30, 35
@@ -373,17 +391,17 @@ class exportDatFile:
         # Concatenate all rows in one single list ready to write in the Ltop.dat file
         return self.concatenate_row_list(row_dat_conf, row_grp_dist,
                                          row_grp_dir, row_var_point,
-                                         row_ellips, row_fiab)
+                                         row_ellips, row_fiab, row_grp_azi)
 
     @staticmethod
     def concatenate_row_list(row_dat_conf, row_grp_dist,
-                             row_grp_dir, row_var_point, row_ellips, row_fiab):
+                             row_grp_dir, row_var_point, row_ellips, row_fiab, row_grp_azi):
         """ Concatenate all the Ltop configuration lists in a single one """
         # Concatenate the lists
         res_list = row_dat_conf + row_var_point + row_ellips + row_fiab
         # Insert the KA 06 DIST.GR. AND RI lists
         idx_ins = [idx for idx, row in enumerate(row_dat_conf) if "05HOEHEABB" in row][0] + 1  ## index to insert lists
-        res_list[idx_ins:idx_ins] = row_grp_dist + row_grp_dir
+        res_list[idx_ins:idx_ins] = row_grp_dist + row_grp_azi + row_grp_dir
         # Finition
         res_list.append("97ENDE" + " "*74)
         return res_list
@@ -461,6 +479,21 @@ class exportDatFile:
             row += cls.empty_space(item[7], 8, "left")
             row += cls.split_item_decimal(item[8], 2, 2) + " "*2
             row += cls.split_item_decimal(item[9], 2, 2) + " "*13
+            res_list.append(row)
+        return res_list
+
+    @classmethod
+    def row_grp_azimuth(cls, data):
+        """
+        Create an Ltop.DAT line for the azimuth groupe data
+        qltop database -> 'grp_azimuth' table
+        """
+        res_list = []
+        for item in data:
+            row = item[1] + item[2] + " "*11
+            row += cls.empty_space(item[3], 1, "left") + " "*11
+            row += cls.empty_space(item[4], 1, "left") + " "*5
+            row += cls.split_item_decimal(item[5], 7, 2) + " "*37
             res_list.append(row)
         return res_list
 
