@@ -36,6 +36,10 @@ FORM_CLASS, _ = uic.loadUiType(os.path.join(
 
 
 class datPfDialog(QDialog, FORM_CLASS):
+    """
+    Define the model for the fixe/variable point table
+    with the contextual menu
+    """
 
     def __init__(self, db_name):
         QDialog.__init__(self)

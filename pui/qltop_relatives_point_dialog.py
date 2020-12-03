@@ -37,6 +37,8 @@ FORM_CLASS, _ = uic.loadUiType(os.path.join(
 
 class datRelDialog(QDialog, FORM_CLASS):
     """
+    Define the model for the ellipses and rectangles to apply to the tables
+    with the contextual menu
     """
 
     def __init__(self, db_name):

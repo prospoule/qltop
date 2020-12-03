@@ -199,16 +199,16 @@ class QLtopDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         self.btnDatGrp.setStyleSheet(stylesSheetDat)
 
         # The triggers
-        self.btnReloadFileDat.clicked.connect(self.dat_file_reload)           ## Trigger the reload files (.dat)
-        self.btnLoadFileDat.clicked.connect(self.load_dat_file)               ## Load an Ltop.DAT file in the database
-        self.txtNameDat.returnPressed.connect(self.dat_file_create)           ## Create an new empty Ltop.dat file
-        self.txtNameDat.textChanged.connect(self.dat_file_create_trigger)     ## Enable the create Ltop.dat file button
-        self.btnDatCreateDat.clicked.connect(self.dat_file_create)            ## Create an new empty Ltop.dat file
-        self.btnDatPF.clicked.connect(self.dat_open_fixed_point_dialog)       ## Open the new/fixed points dialogbox
-        self.btnDatRel.clicked.connect(self.dat_open_relatives_point_dialog)  ## Open the reliability point dialogbox
-        self.btnDatGrp.clicked.connect(self.dat_open_dist_dir_grp_dialog)     ## Open direction/distance group dialogbox
-        self.btnDatLaunchLtop.clicked.connect(self.dat_ltop_start)            ## Launch an Ltop calculation
-        self.btnDatUpdateDat.clicked.connect(self.dat_file_update)            ## Update the selected Ltop.dat file with the database content
+        self.btnReloadFileDat.clicked.connect(self.dat_file_reload)            ## Trigger the reload files (.dat)
+        self.btnLoadFileDat.clicked.connect(self.load_dat_file)                ## Load an Ltop.DAT file in the database
+        self.txtNameDat.returnPressed.connect(self.dat_file_create)            ## Create an new empty Ltop.dat file
+        self.txtNameDat.textChanged.connect(self.dat_file_create_trigger)      ## Enable the create Ltop.dat file button
+        self.btnDatCreateDat.clicked.connect(self.dat_file_create)             ## Create an new empty Ltop.dat file
+        self.btnDatPF.clicked.connect(self.dat_open_fixed_point_dialog)        ## Open the new/fixed points dialogbox
+        self.btnDatRel.clicked.connect(self.dat_open_relatives_point_dialog)   ## Open the reliability point dialogbox
+        self.btnDatGrp.clicked.connect(self.dat_open_dist_dir_azi_grp_dialog)  ## Open direction/distance group dialogbox
+        self.btnDatLaunchLtop.clicked.connect(self.dat_ltop_start)             ## Launch an Ltop calculation
+        self.btnDatUpdateDat.clicked.connect(self.dat_file_update)             ## Update the selected Ltop.dat file with the database content
 
         # The DAT table triggers
         self.txtDat_IF_KOO.textChanged.connect(lambda: self.dat_update_db("param1", self.txtDat_IF_KOO.text(), "IF", ""))
@@ -1300,11 +1300,11 @@ class QLtopDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         if db_name:
             dat_show_reliability_dialog(db_name)
 
-    def dat_open_dist_dir_grp_dialog(self):
+    def dat_open_dist_dir_azi_grp_dialog(self):
         """ Open the distance/direction group management dialog box """
         db_name = self.cbbListFileDB.currentText()  ## Current database.qltop name
         if db_name:
-            dat_show_grp_dist_dir_dialog(db_name)
+            dat_show_grp_dist_dir_azi_dialog(db_name)
 
     def dat_maj_IF_KOO_param(self):
         """ Update the 'KA' 'IF' 'KOO' param. in the .DAT panel """
