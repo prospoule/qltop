@@ -27,6 +27,6 @@
         <file>ui/qltop_mesure_delete_confirmation_dialog.ui</file>
         <file>ui/qltop_dat_fixed_points_dialog.ui</file>
         <file>ui/qltop_relatives_point.ui</file>
-        <file>ui/qltop_group_dist_dir_dialog.ui</file>
+        <file>ui/qltop_group_dist_dir_azi_dialog.ui</file>
     </qresource>
 </RCC>
