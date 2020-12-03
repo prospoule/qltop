@@ -12,6 +12,15 @@ CREATE TABLE dat_conf (
                                     param7 VARCHAR NULL,
                                     param8 VARCHAR NULL
                                     );
+---- Ltop.Dat, Azimuth group, KA 06 AZI
+CREATE TABLE grp_azimuth (
+                                       id_grpazi integer PRIMARY KEY AUTOINCREMENT,
+                                       ka VARCHAR(2) DEFAULT '06' NOT NULL,
+                                       ka_name VARCHAR DEFAULT 'AZI' NOT NULL,
+                                       no_grp VARCHAR NULL,
+                                       no_inc_ori VARCHAR NULL,
+                                       err_moy VARCHAR NULL
+                                       );
 ---- Ltop.Dat, Distance group, KA 06 DIST.GR.
 CREATE TABLE grp_distance (
                                         id_grpdis integer PRIMARY KEY AUTOINCREMENT,
