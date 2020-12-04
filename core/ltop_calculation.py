@@ -74,9 +74,9 @@ class launchLtop:
             output, errors = pop.communicate()  ## wait the end of the execution, then display result
             if pop.returncode or errors:
                 iface.messageBar().pushMessage(u"Erreur : ",
-                                               u"*** Erreur au lancement du calcul Ltop ***",
+                                               u"*** Erreur au lancement du calcul Ltop : {}".format(errors),
                                                level=Qgis.Critical,
-                                               duration=2)
+                                               duration=5)
             return cls.transform_list(output)
         except:
             print("Ltop calc. -> Failed to launch an Ltop calculation (def run_ltop)")
