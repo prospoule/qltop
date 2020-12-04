@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ltop prnxVersion="2016.0.1">
+  <header>
+    <title>QLTOP v.0.1</title>
+    <title2>Donnees de demonstration</title2>
+    <date>4.12.2020  5:39</date>
+    <version>2011.2.0x - PC (LTOP4GeoSuite)</version>
+    <progvers name="MESURES DE DEFORMATION">1</progvers>
+    <lotab>0</lotab>
+    <reciprocalHeightObs>1</reciprocalHeightObs>
+    <kRobust type="planimetric">0.00</kRobust>
+    <kRobust type="altimetric">0.00</kRobust>
+    <variablePoints type="planimetric">5</variablePoints>
+    <variablePoints type="altimetric">5</variablePoints>
+  </header>
+  <relativeEllipses mode="1" type="planimetric">
+    <ellipse point1="2002" type1="" point2="2003" type2="" meanErrorA="0.67" meanErrorB="0.56" azimuthA="48.0"/>
+  </relativeEllipses>
+  <relativeRectangles type="planimetric">
+    <rectangle point1="2002" type1="" point2="2003" type2="" na="3.8" nb="3.4" azimuthA="302.8" nrA="31" nrB="50"/>
+  </relativeRectangles>
+  <planimetricAbriss>
+    <meanErrors>
+      <meanError type="distance" name="EDM" group="3" centeringErr="2.00" a="1.00" b="1.00" c="0.00" me1km="2.83"/>
+      <meanError type="direction" name="direction" group="1" centeringErr="2.00" a="3.00" me1km="3.26"/>
+    </meanErrors>
+    <station obsType="direction" name="1000" type="" newPoint="" value="0.00000" fbuch="" verdat="" weather="" correction="" meanError="2.1">
+      <obs obsNr="1" target="1001" type="" newPoint="" value="127.9255" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="50.0" nabla_rzi="22" robustTag="" wi="indet" gi_rgi="" coordAzi="127.92551" coordDist="178.9413" lateralErr="0.8432"/>
+      <obs obsNr="2" target="1002" type="" newPoint="" value="213.9664" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="50.0" nabla_rzi="22" robustTag="" wi="indet" gi_rgi="" coordAzi="213.96644" coordDist="75.8172" lateralErr="0.3573"/>
+      <obs obsNr="3" target="2002" type="" newPoint="V" value="145.1187" mutualObs="" group="1" corr="" improv="" meanErrApriori="33.0" zi="99.0" nabla_rzi="170" robustTag="" wi="indet" gi_rgi="" coordAzi="145.11868" coordDist="112.6194" lateralErr="5.8378"/>
+    </station>
+    <station obsType="distance" name="1000" type="" newPoint="" value="" fbuch="" verdat="" weather="">
+      <obs obsNr="4" target="1001" type="" newPoint="" value="178.9413" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="127.92551" coordDist="178.9413"/>
+      <obs obsNr="5" target="1002" type="" newPoint="" value="75.8172" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="213.96644" coordDist="75.8172"/>
+      <obs obsNr="6" target="2002" type="" newPoint="V" value="112.6194" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="87.0" nabla_rzi="6" robustTag="" wi="indet" gi_rgi="" coordAzi="145.11868" coordDist="112.6194"/>
+    </station>
+    <station obsType="direction" name="1000" type="" newPoint="" value="0.00000" fbuch="" verdat="" weather="" correction="" meanError="1.6">
+      <obs obsNr="7" target="1001" type="" newPoint="" value="127.9255" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="73.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="127.92551" coordDist="178.9413" lateralErr="0.8432"/>
+      <obs obsNr="8" target="1002" type="" newPoint="" value="213.9664" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="73.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="213.96644" coordDist="75.8172" lateralErr="0.3573"/>
+      <obs obsNr="9" target="1003" type="" newPoint="" value="166.1043" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="73.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="166.10430" coordDist="214.7231" lateralErr="1.0119"/>
+      <obs obsNr="10" target="2002" type="" newPoint="V" value="145.1187" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="55.0" nabla_rzi="21" robustTag="" wi="indet" gi_rgi="" coordAzi="145.11868" coordDist="112.6194" lateralErr="0.5307"/>
+    </station>
+    <station obsType="distance" name="1000" type="" newPoint="" value="" fbuch="" verdat="" weather="">
+      <obs obsNr="11" target="1001" type="" newPoint="" value="178.9413" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="127.92551" coordDist="178.9413"/>
+      <obs obsNr="12" target="1002" type="" newPoint="" value="75.8172" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="213.96644" coordDist="75.8172"/>
+      <obs obsNr="13" target="1003" type="" newPoint="" value="214.7231" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="166.10430" coordDist="214.7231"/>
+      <obs obsNr="14" target="2002" type="" newPoint="V" value="112.6194" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="87.0" nabla_rzi="6" robustTag="" wi="indet" gi_rgi="" coordAzi="145.11868" coordDist="112.6194"/>
+    </station>
+    <station obsType="direction" name="1001" type="" newPoint="" value="0.00000" fbuch="" verdat="" weather="" correction="" meanError="1.6">
+      <obs obsNr="15" target="1000" type="" newPoint="" value="327.9255" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="72.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="327.92551" coordDist="178.9413" lateralErr="0.8432"/>
+      <obs obsNr="16" target="1002" type="" newPoint="" value="300.7133" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="72.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="300.71327" coordDist="178.5112" lateralErr="0.8412"/>
+      <obs obsNr="17" target="1003" type="" newPoint="" value="228.8120" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="72.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="228.81201" coordDist="121.2023" lateralErr="0.5712"/>
+      <obs obsNr="18" target="2000" type="" newPoint="V" value="72.3160" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="0.0" nabla_rzi="INFINI" robustTag="" wi="indet" gi_rgi="INDETERMIN" coordAzi="72.31597" coordDist="273.4503" lateralErr="1.2886"/>
+      <obs obsNr="19" target="2001" type="" newPoint="V" value="139.7820" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="14.0" nabla_rzi="41" robustTag="" wi="indet" gi_rgi="" coordAzi="139.78200" coordDist="83.8445" lateralErr="0.3951"/>
+      <obs obsNr="20" target="2002" type="" newPoint="V" value="302.2460" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="41.0" nabla_rzi="24" robustTag="" wi="indet" gi_rgi="" coordAzi="302.24596" coordDist="76.5476" lateralErr="0.3607"/>
+    </station>
+    <station obsType="distance" name="1001" type="" newPoint="" value="" fbuch="" verdat="" weather="">
+      <obs obsNr="21" target="1000" type="" newPoint="" value="178.9413" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="327.92551" coordDist="178.9413"/>
+      <obs obsNr="22" target="1002" type="" newPoint="" value="178.5112" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="300.71327" coordDist="178.5112"/>
+      <obs obsNr="23" target="1003" type="" newPoint="" value="121.2023" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="228.81201" coordDist="121.2023"/>
+      <obs obsNr="24" target="2000" type="" newPoint="V" value="273.4503" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="0.0" nabla_rzi="INFINI" robustTag="" wi="indet" gi_rgi="indet" coordAzi="72.31597" coordDist="273.4503"/>
+      <obs obsNr="25" target="2001" type="" newPoint="V" value="83.8445" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="61.0" nabla_rzi="7" robustTag="" wi="indet" gi_rgi="" coordAzi="139.78200" coordDist="83.8445"/>
+      <obs obsNr="26" target="2002" type="" newPoint="V" value="76.5476" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="85.0" nabla_rzi="6" robustTag="" wi="indet" gi_rgi="" coordAzi="302.24596" coordDist="76.5476"/>
+    </station>
+    <station obsType="direction" name="1002" type="" newPoint="" value="0.00000" fbuch="" verdat="" weather="" correction="" meanError="1.5">
+      <obs obsNr="27" target="1000" type="" newPoint="" value="13.9664" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="75.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="13.96644" coordDist="75.8172" lateralErr="0.3573"/>
+      <obs obsNr="28" target="1003" type="" newPoint="" value="146.1017" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="75.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="146.10171" coordDist="167.5448" lateralErr="0.7895"/>
+      <obs obsNr="29" target="1004" type="" newPoint="" value="252.4194" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="75.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="252.41944" coordDist="186.1035" lateralErr="0.8770"/>
+      <obs obsNr="30" target="2002" type="" newPoint="V" value="99.5631" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="57.0" nabla_rzi="21" robustTag="" wi="indet" gi_rgi="" coordAzi="99.56311" coordDist="102.0024" lateralErr="0.4807"/>
+      <obs obsNr="31" target="2003" type="" newPoint="V" value="221.8849" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="20.0" nabla_rzi="34" robustTag="" wi="indet" gi_rgi="" coordAzi="221.88490" coordDist="90.4947" lateralErr="0.4264"/>
+      <obs obsNr="32" target="2004" type="" newPoint="V" value="222.0173" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="20.0" nabla_rzi="34" robustTag="" wi="indet" gi_rgi="" coordAzi="222.01727" coordDist="90.5623" lateralErr="0.4268"/>
+    </station>
+    <station obsType="distance" name="1002" type="" newPoint="" value="" fbuch="" verdat="" weather="">
+      <obs obsNr="33" target="1000" type="" newPoint="" value="75.8172" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="13.96644" coordDist="75.8172"/>
+      <obs obsNr="34" target="1003" type="" newPoint="" value="167.5448" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="146.10171" coordDist="167.5448"/>
+      <obs obsNr="35" target="1004" type="" newPoint="" value="186.1035" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="252.41944" coordDist="186.1035"/>
+      <obs obsNr="36" target="2002" type="" newPoint="V" value="102.0024" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="85.0" nabla_rzi="6" robustTag="" wi="indet" gi_rgi="" coordAzi="99.56311" coordDist="102.0024"/>
+      <obs obsNr="37" target="2003" type="" newPoint="V" value="90.4947" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="65.0" nabla_rzi="6" robustTag="" wi="indet" gi_rgi="" coordAzi="221.88490" coordDist="90.4947"/>
+      <obs obsNr="38" target="2004" type="" newPoint="V" value="90.5623" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="65.0" nabla_rzi="6" robustTag="" wi="indet" gi_rgi="" coordAzi="222.01727" coordDist="90.5623"/>
+    </station>
+    <station obsType="direction" name="1003" type="" newPoint="" value="0.00000" fbuch="" verdat="" weather="" correction="" meanError="1.8">
+      <obs obsNr="39" target="1001" type="" newPoint="" value="28.8120" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="66.0" nabla_rzi="19" robustTag="" wi="indet" gi_rgi="" coordAzi="28.81201" coordDist="121.2023" lateralErr="0.5712"/>
+      <obs obsNr="40" target="1002" type="" newPoint="" value="346.1017" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="66.0" nabla_rzi="19" robustTag="" wi="indet" gi_rgi="" coordAzi="346.10171" coordDist="167.5448" lateralErr="0.7895"/>
+      <obs obsNr="41" target="2001" type="" newPoint="V" value="70.7152" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="31.0" nabla_rzi="28" robustTag="" wi="indet" gi_rgi="" coordAzi="70.71520" coordDist="135.0370" lateralErr="0.6363"/>
+      <obs obsNr="42" target="2002" type="" newPoint="V" value="386.7990" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="46.0" nabla_rzi="23" robustTag="" wi="indet" gi_rgi="" coordAzi="386.79900" coordDist="114.1453" lateralErr="0.5379"/>
+    </station>
+    <station obsType="distance" name="1003" type="" newPoint="" value="" fbuch="" verdat="" weather="">
+      <obs obsNr="43" target="1001" type="" newPoint="" value="121.2023" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="28.81201" coordDist="121.2023"/>
+      <obs obsNr="44" target="1002" type="" newPoint="" value="167.5448" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="346.10171" coordDist="167.5448"/>
+      <obs obsNr="45" target="2001" type="" newPoint="V" value="135.0370" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="77.0" nabla_rzi="6" robustTag="" wi="indet" gi_rgi="" coordAzi="70.71520" coordDist="135.0370"/>
+      <obs obsNr="46" target="2002" type="" newPoint="V" value="114.1453" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="91.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="386.79900" coordDist="114.1453"/>
+    </station>
+    <station obsType="direction" name="1004" type="" newPoint="" value="0.00000" fbuch="" verdat="" weather="" correction="" meanError="1.6">
+      <obs obsNr="47" target="1000" type="" newPoint="" value="41.4966" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="73.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="41.49664" coordDist="252.2087" lateralErr="1.1885"/>
+      <obs obsNr="48" target="1002" type="" newPoint="" value="52.4194" mutualObs="*" group="1" corr="" improv="" meanErrApriori="3.0" zi="73.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="52.41944" coordDist="186.1035" lateralErr="0.8770"/>
+      <obs obsNr="49" target="1003" type="" newPoint="" value="96.2381" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="73.0" nabla_rzi="18" robustTag="" wi="indet" gi_rgi="" coordAzi="96.23812" coordDist="262.4581" lateralErr="1.2368"/>
+      <obs obsNr="50" target="2003" type="" newPoint="V" value="76.3478" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="31.0" nabla_rzi="28" robustTag="" wi="indet" gi_rgi="" coordAzi="76.34776" coordDist="113.7615" lateralErr="0.5361"/>
+      <obs obsNr="51" target="2004" type="" newPoint="V" value="76.3071" mutualObs="" group="1" corr="" improv="" meanErrApriori="3.0" zi="31.0" nabla_rzi="28" robustTag="" wi="indet" gi_rgi="" coordAzi="76.30706" coordDist="113.5752" lateralErr="0.5352"/>
+    </station>
+    <station obsType="distance" name="1004" type="" newPoint="" value="" fbuch="" verdat="" weather="">
+      <obs obsNr="52" target="1000" type="" newPoint="" value="252.2087" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="41.49664" coordDist="252.2087"/>
+      <obs obsNr="53" target="1002" type="" newPoint="" value="186.1035" mutualObs="*" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="52.41944" coordDist="186.1035"/>
+      <obs obsNr="54" target="1003" type="" newPoint="" value="262.4581" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="100.0" nabla_rzi="5" robustTag="" wi="indet" gi_rgi="" coordAzi="96.23812" coordDist="262.4581"/>
+      <obs obsNr="55" target="2003" type="" newPoint="V" value="113.7615" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="71.0" nabla_rzi="6" robustTag="" wi="indet" gi_rgi="" coordAzi="76.34776" coordDist="113.7615"/>
+      <obs obsNr="56" target="2004" type="" newPoint="V" value="113.5752" mutualObs="" group="3" improv="" meanErrApriori="1.0" zi="70.0" nabla_rzi="6" robustTag="" wi="indet" gi_rgi="" coordAzi="76.30706" coordDist="113.5752"/>
+    </station>
+    <statistics type="planimetric">
+      <characteristics limitDetectableErrors="5.1" error2ndKind="5.0"/>
+    </statistics>
+  </planimetricAbriss>
+  <altimetricAbriss>
+    <meanErrors>
+      <meanError type="signalizedPoints" meanErrorDist="4.0" meanErrorVertical="4.0" meanErrorIHSH="2.0" meanErrorRefraction="0.500"/>
+      <meanError type="inaccessPoints" meanErrorDist="28.0" meanErrorVertical="4.0" meanErrorIHSH="10.0" meanErrorRefraction="0.500"/>
+      <refractionCoeff>0.130</refractionCoeff>
+      <factorOneSidedSightings>1.00</factorOneSidedSightings>
+    </meanErrors>
+    <station obsType="heightDiff" name="1000" type="" newPoint="" value="1309.2000">
+      <obs obsNr="57" target="1001" type="" newPoint="" value="-6.5000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="178.9413" heightAngle="-2.2765" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="58" target="1002" type="" newPoint="" value="-16.8000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="75.8172" heightAngle="-13.8013" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="59" target="2002" type="" newPoint="V" value="-9.6000" control="0.0" improv="" meanErrApriori="3.0" zi="80.0" nabla_rzi="17" robustTag="" wi="" gi_rgi="" coordDist="112.6194" heightAngle="-5.3575" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="60" target="1001" type="" newPoint="" value="-6.5000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="178.9413" heightAngle="-2.2765" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="61" target="1002" type="" newPoint="" value="-16.8000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="75.8172" heightAngle="-13.8013" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="62" target="1003" type="" newPoint="" value="-33.8000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="214.7231" heightAngle="-9.9107" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="63" target="2002" type="" newPoint="V" value="-9.6000" control="0.0" improv="" meanErrApriori="3.0" zi="80.0" nabla_rzi="17" robustTag="" wi="" gi_rgi="" coordDist="112.6194" heightAngle="-5.3575" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+    </station>
+    <station obsType="heightDiff" name="1001" type="" newPoint="" value="1302.7000">
+      <obs obsNr="64" target="1000" type="" newPoint="" value="6.5000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="178.9413" heightAngle="2.3460" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="65" target="1002" type="" newPoint="" value="-10.3000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="178.5112" heightAngle="-3.6341" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="66" target="1003" type="" newPoint="" value="-27.3000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="121.2023" heightAngle="-14.0534" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="67" target="2000" type="" newPoint="V" value="1.8000" control="0.0" improv="" meanErrApriori="3.0" zi="0.0" nabla_rzi="INFINI" robustTag="" wi="" gi_rgi="INDETERM" coordDist="273.4503" heightAngle="0.4411" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="68" target="2001" type="" newPoint="V" value="-4.7000" control="0.0" improv="" meanErrApriori="3.0" zi="50.0" nabla_rzi="22" robustTag="" wi="" gi_rgi="" coordDist="83.8445" heightAngle="-3.4893" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="69" target="2002" type="" newPoint="V" value="-3.1000" control="0.0" improv="" meanErrApriori="3.0" zi="80.0" nabla_rzi="17" robustTag="" wi="" gi_rgi="" coordDist="76.5476" heightAngle="-2.4938" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+    </station>
+    <station obsType="heightDiff" name="1002" type="" newPoint="" value="1292.4000">
+      <obs obsNr="70" target="1000" type="" newPoint="" value="16.8000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="75.8172" heightAngle="13.9607" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="71" target="1003" type="" newPoint="" value="-17.0000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="167.5448" heightAngle="-6.4000" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="72" target="1004" type="" newPoint="" value="-24.1000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="186.1035" heightAngle="-8.1649" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="73" target="2002" type="" newPoint="V" value="7.2000" control="0.0" improv="" meanErrApriori="3.0" zi="80.0" nabla_rzi="17" robustTag="" wi="" gi_rgi="" coordDist="102.0024" heightAngle="4.5475" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="74" target="2003" type="" newPoint="V" value="-26.5000" control="0.0" improv="" meanErrApriori="3.0" zi="50.0" nabla_rzi="22" robustTag="" wi="" gi_rgi="" coordDist="90.4947" heightAngle="-18.0695" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="75" target="2004" type="" newPoint="V" value="-26.5000" control="0.0" improv="" meanErrApriori="3.0" zi="50.0" nabla_rzi="22" robustTag="" wi="" gi_rgi="" coordDist="90.5623" heightAngle="-18.0567" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+    </station>
+    <station obsType="heightDiff" name="1003" type="" newPoint="" value="1275.4000">
+      <obs obsNr="76" target="1001" type="" newPoint="" value="27.3000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="121.2023" heightAngle="14.1523" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="77" target="1002" type="" newPoint="" value="17.0000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="167.5448" heightAngle="6.4738" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="78" target="2001" type="" newPoint="V" value="22.6000" control="0.0" improv="" meanErrApriori="3.0" zi="50.0" nabla_rzi="22" robustTag="" wi="" gi_rgi="" coordDist="135.0370" heightAngle="10.6011" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="79" target="2002" type="" newPoint="V" value="24.2000" control="0.0" improv="" meanErrApriori="3.0" zi="80.0" nabla_rzi="17" robustTag="" wi="" gi_rgi="" coordDist="114.1453" heightAngle="13.3518" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+    </station>
+    <station obsType="heightDiff" name="1004" type="" newPoint="" value="1268.3000">
+      <obs obsNr="80" target="1000" type="" newPoint="" value="40.9000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="252.2087" heightAngle="10.2574" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="81" target="1002" type="" newPoint="" value="24.1000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="186.1035" heightAngle="8.2306" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="82" target="1003" type="" newPoint="" value="7.1000" control="0.0" improv="" meanErrApriori="3.0" zi="100.0" nabla_rzi="15" robustTag="" wi="" gi_rgi="" coordDist="262.4581" heightAngle="1.7447" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="83" target="2003" type="" newPoint="V" value="-2.4000" control="0.0" improv="" meanErrApriori="3.0" zi="50.0" nabla_rzi="22" robustTag="" wi="" gi_rgi="" coordDist="113.7615" heightAngle="-1.2873" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+      <obs obsNr="84" target="2004" type="" newPoint="V" value="-2.4000" control="0.0" improv="" meanErrApriori="3.0" zi="50.0" nabla_rzi="22" robustTag="" wi="" gi_rgi="" coordDist="113.5752" heightAngle="-1.2894" reduction="0" instrumentHeight="1.500" signalHeight="1.600" date=""/>
+    </station>
+    <statistics type="altimetric">
+      <characteristics limitDetectableErrors="5.1" error2ndKind="5.0"/>
+    </statistics>
+  </altimetricAbriss>
+  <coordinates>
+    <point name="MN95" type="" easting="2600000.00000" northing="1200000.00000" height="0.00000" planimetricElements="0" altimetricElements="0"/>
+    <point name="1000" type="" easting="2564272.00000" northing="1103844.80000" height="1309.20000" planimetricElements="20" altimetricElements="10"/>
+    <point name="1001" type="" easting="2564434.00000" northing="1103768.80000" height="1302.70000" planimetricElements="18" altimetricElements="9"/>
+    <point name="1002" type="" easting="2564255.50000" northing="1103770.80000" height="1292.40000" planimetricElements="22" altimetricElements="11"/>
+    <point name="1003" type="" easting="2564381.00000" northing="1103659.80000" height="1275.40000" planimetricElements="16" altimetricElements="8"/>
+    <point name="1004" type="" easting="2564119.00000" northing="1103644.30000" height="1268.30000" planimetricElements="12" altimetricElements="6"/>
+    <point name="2000" type="" easting="2564682.00000" northing="1103884.00000" height="1304.50000" dy="0.0" dx="0.0" dh="0.0" meanErrorA="1.46" meanErrorB="1.00" azimuthA="-27.68" meanErrorH="3.00" planimetricElements="2" altimetricElements="1"/>
+    <point name="2001" type="" easting="2564502.00000" northing="1103719.75000" height="1298.00000" dy="0.0" dx="0.0" dh="0.0" meanErrorA="0.62" meanErrorB="0.40" azimuthA="-65.77" meanErrorH="2.12" planimetricElements="4" altimetricElements="2"/>
+    <point name="2002" type="" easting="2564357.50000" northing="1103771.50000" height="1299.60000" dy="0.0" dx="0.0" dh="0.0" meanErrorA="0.39" meanErrorB="0.28" azimuthA="-92.37" meanErrorH="1.34" planimetricElements="10" altimetricElements="5"/>
+    <point name="2003" type="" easting="2564225.00000" northing="1103685.60000" height="1265.90000" dy="0.0" dx="0.0" dh="0.0" meanErrorA="0.60" meanErrorB="0.40" azimuthA="37.04" meanErrorH="2.12" planimetricElements="4" altimetricElements="2"/>
+    <point name="2004" type="" easting="2564224.80000" northing="1103685.60000" height="1265.90000" dy="0.0" dx="0.0" dh="0.0" meanErrorA="0.60" meanErrorB="0.40" azimuthA="37.25" meanErrorH="2.12" planimetricElements="4" altimetricElements="2"/>
+  </coordinates>
+  <externalReliabilityApriori>
+    <point name="2000" type="" na="infinite" nb="infinite" azimuthN="172.32" nh="infinite" nrA="18" nrB="24" nrH="67" dy="0.0" dx="0.0" dh="0.0" meanErrorA="1.46" meanErrorB="1.00" azimuthA="-27.68" meanErrorH="3.00"/>
+    <point name="2001" type="" na="4.40" nb="3.52" azimuthN="247.63" nh="10.91" nrA="19" nrB="41" nrH="68" dy="0.0" dx="0.0" dh="0.0" meanErrorA="0.62" meanErrorB="0.40" azimuthA="-65.77" meanErrorH="2.12"/>
+    <point name="2002" type="" na="1.45" nb="1.35" azimuthN="97.37" nh="3.45" nrA="42" nrB="20" nrH="59" dy="0.0" dx="0.0" dh="0.0" meanErrorA="0.39" meanErrorB="0.28" azimuthA="-92.37" meanErrorH="1.34"/>
+    <point name="2003" type="" na="3.78" nb="3.30" azimuthN="304.20" nh="10.91" nrA="31" nrB="50" nrH="74" dy="0.0" dx="0.0" dh="0.0" meanErrorA="0.60" meanErrorB="0.40" azimuthA="37.04" meanErrorH="2.12"/>
+    <point name="2004" type="" na="3.78" nb="3.29" azimuthN="304.24" nh="10.91" nrA="32" nrB="51" nrH="75" dy="0.0" dx="0.0" dh="0.0" meanErrorA="0.60" meanErrorB="0.40" azimuthA="37.25" meanErrorH="2.12"/>
+  </externalReliabilityApriori>
+  <page1>
+    <meanErrorQuotientWithoutRounding plan="1.00" alti="1.00"/>
+    <meanErrorQuotientFinalControl plan="1.00" alti="1.00"/>
+    <propThatQ plan="47.0" alti="46.1"/>
+    <observations plan="56" alti="28"/>
+    <unknowns plan="16" alti="5"/>
+    <redundancy plan="40" alti="23"/>
+    <decimalPlaces plan="4.3" alti="5.7"/>
+    <maxMeanCoordError plan="1.5" alti="3.0"/>
+    <iterations plan="1" planMax="10" alti="1" altiMax="10"/>
+    <maxCorrLastIteration plan="0.0" alti="0.0"/>
+    <interruptionLimit plan="1.0" alti="1.0"/>
+    <limitRobustComp plan="not robust" alti="not robust"/>
+    <calculationTime value="0.0"/>
+    <yxhAfterRounding value="4"/>
+    <stations value="18"/>
+    <observationLines value="84"/>
+    <files dat="configuration.dat" koo="coordonnees.coo" mes="mesures.mes" prn="resultat_demo.prn" res="resultat_demo.res" ipl="resultat_demo.ipl" aMat="A_MAT"/>
+    <user name="nicolas"/>
+    <observationGroups>
+      <observationGroup type="distance" group="3" obsCount="28" meApriori="2.8" meFinal="2.8" quotient="1.00" redundandy="24.446"/>
+      <observationGroup type="direction" group="1" obsCount="28" meApriori="3.3" meFinal="3.3" quotient="1.00" redundandy="15.554"/>
+      <observationGroup type="heightDiff" obsCount="28" meApriori="39.7" meFinal="39.7" quotient="1.00" redundandy="23.000"/>
+    </observationGroups>
+  </page1>
+  <variablePoints type="planimetric" count="5">
+    <variablePoint name="2000" type=""/>
+    <variablePoint name="2001" type=""/>
+    <variablePoint name="2002" type=""/>
+    <variablePoint name="2003" type=""/>
+    <variablePoint name="2004" type=""/>
+  </variablePoints>
+  <variablePoints type="altimetric" count="5">
+    <variablePoint name="2000" type=""/>
+    <variablePoint name="2001" type=""/>
+    <variablePoint name="2002" type=""/>
+    <variablePoint name="2003" type=""/>
+    <variablePoint name="2004" type=""/>
+  </variablePoints>
+  <av93Stats>
+    <statistic dimension="planimetric" nOutTol="0" nInfinite="0" meOutTol="0"/>
+    <statistic dimension="altimetric" nOutTol="0" nInfinite="0" meOutTol="0"/>
+  </av93Stats>
+</ltop>

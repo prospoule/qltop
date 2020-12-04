@@ -1,0 +1,47 @@
+IF coordonnees.coo mesures.mes                                                  
+OF resultat_demo.prn resultat_demo.res resultat_demo.ipl                        
+00QLTOP v.0.1                                                                   
+00Donnees de demonstration                                                      
+01KOORD         0          30          30                 5    10               
+01RUNDUNG       4           2                                                   
+01KAT           0           0                                                   
+02LAGEITER     10                                                               
+03HOEHEITE     10                                                               
+04LAGE ABB      1                                                               
+05HOEHEABB      1                                                               
+06DIST.GR.      1                       2        MESSBAND300    0               
+06DIST.GR.      2                       1        2M-BASIS10    2500             
+06DIST.GR.      3                       1        EDM      1     0               
+06DIST.GR.      4                       5        EDM      5     0               
+06AZI                                                                           
+06RI            3           3                                                   
+07MF RI+AZ      30          30                                                  
+08DIST.RED      2           0           2        STD      1                     
+09MF H.DIS      4          28                                                   
+10MF HW         4                                                               
+11MF IH-SH      2          10                                                   
+12REFRAKT.      013         05                                                  
+13              1           0           1                                       
+14KOO.VERZ      0           0           0                 0     0               
+14PLOT          0                       0                 0    0         0   0 
+15MATRIZEN      0           0                                                   
+16PRAEANA.      3                                                               
+17PROGVERS      1           0           1                62                     
+17ELLIPSOI      0     6377397155  66743722310   CH                              
+17ROBUST        0           0                                                   
+18I.ZUVERL                  35          5                       35       5   20 
+18FIAB          2           0                                                   
+20MN95    26000000000 12000000000       00000                                   
+302000                                                                          
+302001                                                                          
+302002                                                                          
+302003                                                                          
+302004                                                                          
+352000                                                                          
+352001                                                                          
+352002                                                                          
+352003                                                                          
+352004                                                                          
+502002          2003                                                            
+602002          2003                                                            
+97ENDE                                                                          
